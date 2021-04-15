@@ -20,8 +20,9 @@ export default () => (
     <Drawer.Navigator drawerType="slide">
 
     <Drawer.Screen name="GoogleMap" component={GoogleMapScreen} />
+    
 
-    <Drawer.Screen name="LoginScreen" component={LoginScreen} />
+    <Drawer.Screen name="Actualites" component={Actualites} />
       
 
 
