@@ -1,6 +1,8 @@
 import React from 'react';
 import { StyleSheet, Dimensions, View, Button, Image, TextInput } from 'react-native';
 import MapView, { PROVIDER_GOOGLE, Marker, Callout } from 'react-native-maps'; // remove PROVIDER_GOOGLE import if not using Google Maps
+import { Entypo } from '@expo/vector-icons';
+
 
 const { width, height } = Dimensions.get("window");
 
@@ -48,7 +50,7 @@ export default ({ navigation, }) => (
             {/* test */}
         </TextInput>
         <View style={styles.button} onPressIn={() => navigation.toggleDrawer()}>
-            <Button color='#59C65B' title={'<--'} />
+            <Entypo name = "menu" size = {20} color = "black" />
         </View>
 
 
