@@ -74,7 +74,8 @@ export default ({ navigation, }) => (
                 }}
                 // image={require('https://imgur.com/a/Uzb88rP')}
                 title="Efrei Paris"
-                description="Borne de recharge disponible dans le StudentHub">
+                description="Borne de recharge disponible dans le StudentHub ,
+                https://www.efrei.fr/">
 
             </Marker>
             <Marker
@@ -93,7 +94,8 @@ export default ({ navigation, }) => (
                     longitude: 2.3636359641339277,
                 }}
                 title="Crous d'Efrei Paris"
-                description="Borne de recharge disponible dans la cantine du Crous">
+                description="Borne de recharge disponible dans la cantine du Crous,
+                https://www.crous-paris.fr/">
 
             </Marker>
 
@@ -113,7 +115,8 @@ export default ({ navigation, }) => (
                     longitude: 2.368835487684442,
                 }}
                 title="O'Tacos"
-                description="Borne de recharge dans la salle à manger">
+                description="Borne de recharge dans la salle à manger,
+                https://o-tacos.com/fr/">
 
             </Marker>
 
@@ -123,7 +126,7 @@ export default ({ navigation, }) => (
                     longitude: 2.3619509362973456,
                 }}
                 title="Pizza Italie"
-                description="Borne de recharge près du bars">
+                description="Borne de recharge près du bar">
 
             </Marker>
 
