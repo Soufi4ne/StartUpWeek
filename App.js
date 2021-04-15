@@ -22,7 +22,11 @@ export default () => (
     <Drawer.Screen name="Carte" component={GoogleMapScreen} />
 
     <Drawer.Screen name="Actualités" component={ActualitesScreen} />
-      
+
+    <Drawer.Screen name="Abonnements" component={AbonnementsScreen} />
+
+    <Drawer.Screen name="Nous Contacter" component={NousContacterScreen} /> 
+
     </Drawer.Navigator>
   </NavigationContainer>
 );
