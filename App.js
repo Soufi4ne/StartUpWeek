@@ -8,7 +8,8 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import GoogleMapScreen from "./screens/GoogleMapScreen";
 import LoginScreen from './screens/LoginScreen';
 import ActualitesScreen from "./screens/ActualitesScreen";
-
+import AbonnementsScreen from './screens/AbonnementsScreen'
+import NousContacterScreen from "./screens/NousContacterScreen"
 
 
 
@@ -23,7 +24,7 @@ export default () => (
 
     <Drawer.Screen name="Actualités" component={ActualitesScreen} />
 
-    <Drawer.Screen name="Abonnements" component={AbonnementsScreen} />
+    <Drawer.Screen name="Abonnements" component={ AbonnementsScreen} />
 
     <Drawer.Screen name="Nous Contacter" component={NousContacterScreen} /> 
 
