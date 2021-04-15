@@ -21,9 +21,8 @@ export default () => (
 
     <Drawer.Screen name="Carte" component={GoogleMapScreen} />
 
-
-    <Drawer.Screen name="Connexion" component={LoginScreen} />
-
+    <Drawer.Screen name="Actualités" component={ActualitesScreen} />
+      
     </Drawer.Navigator>
   </NavigationContainer>
 );
