@@ -23,9 +23,6 @@ export default () => (
 
 
     <Drawer.Screen name="Connexion" component={LoginScreen} />
-      
-
-
 
     </Drawer.Navigator>
   </NavigationContainer>
