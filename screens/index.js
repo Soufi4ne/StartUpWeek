@@ -7,5 +7,5 @@ export const ParametresCompteScreen = ({navigation}) => <Screen navigation={navi
 export const AbonnementsScreen = ({navigation}) => <Screen navigation={navigation} name="Abonnements"/>;
 export const CGIscreen = ({navigation}) => <Screen navigation={navigation} name="CGI"/>;
 export const NousContacterScreen = ({navigation}) => <Screen navigation={navigation} name="Nous contacter"/>;
-export const GoogleMapScreen = ({navigation}) => <Screen navigation={navigation} name="Google Map"/>;
-export const LoginScreen = ({navigation}) => <Screen navigation={navigation} name="Login Screen"/>;
+export const GoogleMapScreen = ({navigation}) => <Screen navigation={navigation} name="GoogleMap"/>;
+export const LoginScreen = ({navigation}) => <Screen navigation={navigation} name="LoginScreen"/>;

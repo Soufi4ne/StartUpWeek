@@ -1,20 +1,13 @@
-import React from 'react';
-import { StyleSheet, Text, View, TextInput, TouchableOpacity, Image } from 'react-native';
-import GoogleMapScreen from './GoogleMapScreen';
-import navigation from './GoogleMapScreen';
+import React, {useState} from 'react';
+import { StyleSheet, View, TextInput,Text, TouchableOpacity } from 'react-native';
 
 
-import { NavigationContainer } from '@react-navigation/native';
-import { createDrawerNavigator } from '@react-navigation/drawer';
+export default function LoginScreen({navigation}){
+   const [email, setEmail]=useState("");
+   const [password, setPassword]=useState("");
 
-export default class App extends React.Component {
+    return(
     
-    state = {
-        email: "",
-        password: ""
-    }
-    render() {
-        return (
 
 
             <View style={styles.container}>
@@ -24,7 +17,7 @@ export default class App extends React.Component {
                         style={styles.inputText}
                         placeholder="Email..."
                         placeholderTextColor="#003f5c"
-                        onChangeText={text => this.setState({ email: text })} />
+                        onChangeText={setEmail} />
                 </View>
 
                 <View style={styles.inputView} >
@@ -33,13 +26,13 @@ export default class App extends React.Component {
                         style={styles.inputText}
                         placeholder="Password..."
                         placeholderTextColor="#003f5c"
-                        onChangeText={text => this.setState({ password: text })} />
+                        onChangeText={setPassword} />
                 </View>
 
                 <TouchableOpacity>
                     <Text style={styles.forgot}>Forgot Password?</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.loginBtn} onPress={() => props.navigation.navigate('Google Map')}  >
+                <TouchableOpacity style={styles.loginBtn} onPress={() => navigation.navigate('GoogleMap')}  >
                     <Text style={styles.loginText}>LOGIN</Text>
                 </TouchableOpacity>
                 <TouchableOpacity>
@@ -48,8 +41,8 @@ export default class App extends React.Component {
             </View>
 
 
-        );
-    }
+    );
+    
 }
 
 const styles = StyleSheet.create({
