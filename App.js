@@ -19,10 +19,10 @@ export default () => (
   <NavigationContainer>
     <Drawer.Navigator drawerType="slide">
 
-    <Drawer.Screen name="GoogleMap" component={GoogleMapScreen} />
-    
+    <Drawer.Screen name="Carte" component={GoogleMapScreen} />
 
-    <Drawer.Screen name="Actualites" component={Actualites} />
+
+    <Drawer.Screen name="Connexion" component={LoginScreen} />
       
 
 
