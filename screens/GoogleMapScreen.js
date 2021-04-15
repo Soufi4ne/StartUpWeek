@@ -73,7 +73,7 @@ export default ({ navigation, }) => (
                     longitude: 2.3637151,
                 }}
                 // image={require('https://imgur.com/a/Uzb88rP')}
-                title="Efrei Paris"
+                title ="Efrei Paris"
                 description="Borne de recharge disponible dans le StudentHub">
 
             </Marker>
